@@ -35,7 +35,7 @@ namespace LTPEditorV2
         private void barButtonItem33_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             var me = new ProcessStartInfo("chrome.exe");
-            me.Arguments = "https://github.com/intiu";
+            me.Arguments = "https://github.com/intiu/LTPEditorV2";
             Process.Start(me);
         }
 

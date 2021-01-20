@@ -55,7 +55,7 @@ namespace LTPEditorV2
             this.toolbarFormControl1.Location = new System.Drawing.Point(0, 0);
             this.toolbarFormControl1.Manager = this.toolbarFormManager1;
             this.toolbarFormControl1.Name = "toolbarFormControl1";
-            this.toolbarFormControl1.Size = new System.Drawing.Size(387, 31);
+            this.toolbarFormControl1.Size = new System.Drawing.Size(471, 31);
             this.toolbarFormControl1.TabIndex = 0;
             this.toolbarFormControl1.TabStop = false;
             this.toolbarFormControl1.ToolbarForm = this;
@@ -74,7 +74,7 @@ namespace LTPEditorV2
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 31);
             this.barDockControlTop.Manager = this.toolbarFormManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(387, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(471, 0);
             // 
             // barDockControlBottom
             // 
@@ -82,7 +82,7 @@ namespace LTPEditorV2
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.barDockControlBottom.Location = new System.Drawing.Point(0, 242);
             this.barDockControlBottom.Manager = this.toolbarFormManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(387, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(471, 0);
             // 
             // barDockControlLeft
             // 
@@ -96,7 +96,7 @@ namespace LTPEditorV2
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(387, 31);
+            this.barDockControlRight.Location = new System.Drawing.Point(471, 31);
             this.barDockControlRight.Manager = this.toolbarFormManager1;
             this.barDockControlRight.Size = new System.Drawing.Size(0, 211);
             // 
@@ -109,10 +109,10 @@ namespace LTPEditorV2
             this.linkLabel2.LinkColor = System.Drawing.Color.Blue;
             this.linkLabel2.Location = new System.Drawing.Point(201, 213);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(168, 20);
+            this.linkLabel2.Size = new System.Drawing.Size(262, 20);
             this.linkLabel2.TabIndex = 30;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "https://github.com/intiu";
+            this.linkLabel2.Text = "https://github.com/intiu/LTPEditorV2";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // label5
@@ -205,7 +205,7 @@ namespace LTPEditorV2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(387, 242);
+            this.ClientSize = new System.Drawing.Size(471, 242);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);

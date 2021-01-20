@@ -28,7 +28,7 @@ namespace LTPEditorV2
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             var github = new ProcessStartInfo("chrome.exe");
-            github.Arguments = "https://github.com/intiu";
+            github.Arguments = "https://github.com/intiu/LTPEditorV2";
             Process.Start(github);
         }
     }
